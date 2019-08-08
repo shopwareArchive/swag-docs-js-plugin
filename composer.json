@@ -1,0 +1,32 @@
+{
+    "name": "swag/js-plugin",
+    "description": "Example plugin to add an javascript plugin to the storefront.",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/storefront": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\JsPlugin\\JsPlugin",
+        "label": {
+            "de-DE": "Label für das Plugin JsPlugin",
+            "en-GB": "Label for the plugin JsPlugin"
+        },
+        "description": {
+            "de-DE": "Beschreibung für das Plugin JsPlugin",
+            "en-GB": "Description for the plugin JsPlugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\JsPlugin\\": "src/"
+        }
+    }
+}
