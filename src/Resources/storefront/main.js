@@ -3,7 +3,7 @@ import ExamplePlugin from './example-plugin/example-plugin.plugin';
 
 // Register them via the existing PluginManager
 const PluginManager = window.PluginManager;
-PluginManager.register('ExamplePlugin', ExamplePlugin);
+PluginManager.register('ExamplePlugin', ExamplePlugin, '[data-example-plugin]');
 
 // Necessary for the webpack hot module reloading server
 if (module.hot) {
