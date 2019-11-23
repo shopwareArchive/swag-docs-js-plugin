@@ -1,4 +1,4 @@
-import Plugin from 'src/script/plugin-system/plugin.class';
+import Plugin from 'src/plugin-system/plugin.class';
 
 export default class ExamplePlugin extends Plugin {
     static options = {
