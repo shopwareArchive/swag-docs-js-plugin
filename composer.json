@@ -28,5 +28,10 @@
         "psr-4": {
             "Swag\\JsPlugin\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swag\\ExtendJsPlugin\\Tests\\": "tests/"
+        }
     }
 }
